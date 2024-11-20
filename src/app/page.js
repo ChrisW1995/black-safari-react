@@ -29,7 +29,7 @@ const VideoIntro = ({ onClose }) => {
         playsInline
         muted
       >
-        <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4" />
+        <source src="https://i.imgur.com/V0qPywB.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
@@ -49,14 +49,14 @@ export default function HomePage() {
       {showVideo && <VideoIntro onClose={handleVideoEnd} />}
       
       {/* Hero Section */}
-      <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+      <div className="text-center mb-12 pt-8">
+        <h1 className="text-4xl md:text-5xl font-bold text-white-800 mb-6">
           歡迎來到 BLACK SAFARI
         </h1>
-        <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
+        {/* <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
           探索運動與社交的無限可能。我們提供專業的運動課程、社交活動和品牌合作機會，
           讓每位參與者都能在這裡找到屬於自己的精彩時刻。
-        </p>
+        </p> */}
       </div>
       
       {/* 功能卡片 */}
@@ -75,7 +75,7 @@ export default function HomePage() {
         </div>
         
         <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">課程報名</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Title</h2>
           <p className="text-gray-600 mb-6">
             立即加入我們的專業運動課程，開啟您的健康生活方式。
           </p>
